@@ -3,7 +3,9 @@ Spring Cloud Sleuth 方式接入zipkin
 
 
 http2zipkin分支   sleuth方式 对接zipkin以Http 方式上报 demo
+
 kafka2zipkin分支  sleuth方式 对接zipkin以kafka方式上报 demo
+
 操作步骤：
 
 1、启动本地zipkin, 对应url+端口： http://localhost:9411
