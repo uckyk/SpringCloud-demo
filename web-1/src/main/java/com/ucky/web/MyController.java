@@ -27,4 +27,9 @@ public class MyController {
         return restTemplate.getForEntity("http://localhost:9222/hello",String.class).getBody();
     }
 
+    @RequestMapping("/jump-3")
+    public String jumpToAnother3(){
+        return restTemplate.getForEntity("http://localhost:10031/hello",String.class).getBody();
+    }
+
 }
